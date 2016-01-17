@@ -13,9 +13,13 @@ clean:
 javascript: HelloWorld.hx
 	haxe -main HelloWorld -js build/js/HelloWorld.js
 
+# You need to install hxcs before running this task.
+# haxelib install hxcs
 csharp: HelloWorld.hx
 	haxe -main HelloWorld -cs build/cs/
 
+# You need to install hxjava before running this task.
+# haxelib install hxjava
 java: HelloWorld.hx
 	haxe -main HelloWorld -java build/java/
 
